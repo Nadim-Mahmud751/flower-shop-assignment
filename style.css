@@ -157,3 +157,63 @@ section {
     text-decoration-line: underline;
 }
 /* our featured flowers style end*/
+
+.offer {
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    margin-top: 80px;
+
+    .offer-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 100px;
+
+        .offer-content {
+            text-align: center;
+
+            h1 {
+                color: #272727;
+                font-family: Lato;
+                font-size: 32px;
+                font-style: normal;
+                font-weight: 800;
+                line-height: normal;
+
+                span {
+                    color: #E55473;
+
+                }
+            }
+
+            p {
+                color: rgba(39, 39, 39, 0.60);
+                text-align: center;
+                font-family: Lato;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 30px;
+                /* 166.667% */
+                margin-top: 18px;
+                margin-bottom: 18px;
+            }
+        }
+    }
+}
+
+.instagram {
+
+    .insta-wrapper {
+        margin-top: 30px;
+        gap: 40px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+
+        .item img {
+            width: 100%;
+        }
+    }
+}
+
+/* offer and instagram style end */
